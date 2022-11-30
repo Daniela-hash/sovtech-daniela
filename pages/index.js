@@ -20,7 +20,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="/who" className={styles.card}>
             <h2>The WHO&rarr;</h2>
             <p>
               <ul>
@@ -67,8 +67,7 @@ export default function Home() {
           </a>
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Work Experience</h2>
-            <p>
-              <table cellspacing="10">
+              <table cellSpacing="10">
                 <tr>
                   <td>2016</td>
                   <td>Practice Manager</td>
@@ -86,13 +85,11 @@ export default function Home() {
                   <td>Community Service </td>
                 </tr>
               </table>
-            </p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Interests & Traits&rarr;</h2>
-            <p>
-              <table cellspacing="10">
+              <table cellSpacing="10">
                 <tr>
                   <td>Reading</td>
                   <td>Empathy</td>
@@ -110,16 +107,14 @@ export default function Home() {
                   <td>Resouceful</td>
                 </tr>
               </table>
-            </p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Soft Skills&rarr;</h2>
-            <p>
-              <table cellspacing="10">
+              <table cellSpacing="10">
                 <tr>
                   <td>Communication</td>
-                  <td>⭐⭐⭐⭐</td>
+                  <td>⭐⭐⭐⭐⭐</td>
                 </tr>
                 <tr>
                   <td>Client Mx</td>
@@ -134,16 +129,15 @@ export default function Home() {
                   <td>⭐⭐⭐⭐</td>
                 </tr>
               </table>
-            </p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Technical Skills&rarr;</h2>
             <p>
-              <table cellspacing="10">
+              <table cellSpacing="10">
                 <tr>
                   <td>Github</td>
-                  <td>⭐⭐⭐⭐</td>
+                  <td>⭐⭐⭐</td>
                 </tr>
                 <tr>
                   <td>Ruby</td>
