@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -12,12 +12,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          HELLO SOVTECH! MEET DANIELA 🙋🏻‍♀️
-        </h1>
+        <h1 className={styles.title}>HELLO SOVTECH! MEET DANIELA 🙋🏻‍♀️</h1>
 
         <p className={styles.description}>
-            As she takes the road less travelled in becoming a software developer. 
+          "A man can succeed at almost anything for which he has unlimited
+          enthusiasm."—Charles Schwab
           <code className={styles.code}>pages/index.js</code>
         </p>
 
@@ -25,97 +24,141 @@ export default function Home() {
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>The WHO&rarr;</h2>
             <p>
-            Hello! I’m Daniela. As a life-long learner, I set goals for myself and work hard to achieve them. 
-            I enjoy being active, whether it’s the occasional swim, walk, or run after my toddler. 
-            I am curious, creative, and an out-of-the-box thinker. I was born and raised in Johannesburg, 
-            and I am proud of my Portuguese roots and South African heritage. Empathy and approachable in nature, 
-            I have an innate need to help people and simplify practices using a solution-based approach. 
-            Random fact: I'm pretty good at Foosball ⚽ 
+              <ul>
+                <li>🥅I set goals for myself and work hard to achieve them.</li>
+                <li>🤸I enjoy being active, with a swim, walk, or run.</li>
+                <li>👨‍👩‍👦Family woman</li>
+                <li>
+                  🎨I am curious, creative, and an out-of-the-box thinker.
+                </li>
+                <li>
+                  🌍I am proud of my Portuguese roots and South African
+                  heritage.{" "}
+                </li>
+                <li>🔦I simplify practices using a solution-based approach.</li>
+                <li>🩹I come from a medical background.</li>
+                <li>⚽I'm pretty good at Foosball.</li>
+              </ul>
             </p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>The WHY&rarr;</h2>
-            <p>Software development embodies innovation. I see it as a career that will challenge my 
-                curiosity, creativity and overall drive to learn and design. 
-                I come from a medical background felt the need to adapt my skills in client, project and 
-                practice management into a sustainble career where I could learn new technical skills, grow and have fun! 
-                I was drawn to the Graduate Programme as it is an amazing entry point for me into the Tech industry. 
-                The dynamic nature and supportive environment for learning will harness my soft skills 
-                while I take the time to harvest my technical skills.</p>
+            <p>
+              <ul>
+                <li>👩🏼‍🎓Software development embodies innovation.</li>
+                <li>🔍It will challenge my curiosity and creativity.</li>
+                <li>
+                  🗃I’m looking to adapt my skills in client and project
+                  management.
+                </li>
+                <li>
+                  🎓The Graduate Programme is an amazing entry point for me into
+                  Tech.{" "}
+                </li>
+                <li>
+                  🙌I am drawn to the dynamic nature and supportive environment
+                </li>
+                <li>
+                  👩‍🌾The program will allow me to take the time to harvest my
+                  technical skills.
+                </li>
+              </ul>
+            </p>
           </a>
           <a href="https://nextjs.org/learn" className={styles.card}>
-          <h2>Work Experience</h2>
-          <p>
-            <table>
-                <tr>
-                    <td>2016</td>
-                    <td>Practice Owner</td>
-                </tr>
-                <tr>
-                    <td>2015</td>
-                    <td>Part-Time OT</td>
-                </tr>
-                <tr>
-                    <td>2013</td>
-                    <td>Junior OT</td>
-                </tr>
-                <tr>
-                    <td>2012</td>
-                    <td>Community Service </td>
-                </tr>
-            </table>
-            </p>
-            </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Interest and Attributes&rarr;</h2>
+            <h2>Work Experience</h2>
             <p>
-        <table>
-            <tr>
-                <td>Reading</td>
-                <td>Empathy</td>
-            </tr>
-            <tr>
-                <td>Exercise</td>
-                <td>Creativity</td>
-                
-            </tr>
-            <tr>
-                <td>Puzzles</td>
-                <td>Helpful</td>
-                
-            </tr>
-            <tr>
-                <td>Travel</td>
-                <td>Resouceful</td>
-            </tr>
-        </table>
+              <table cellspacing="10">
+                <tr>
+                  <td>2016</td>
+                  <td>Practice Manager</td>
+                </tr>
+                <tr>
+                  <td>2015</td>
+                  <td>Locum OT</td>
+                </tr>
+                <tr>
+                  <td>2013</td>
+                  <td>Junior OT</td>
+                </tr>
+                <tr>
+                  <td>2012</td>
+                  <td>Community Service </td>
+                </tr>
+              </table>
             </p>
           </a>
 
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Interests & Traits&rarr;</h2>
+            <p>
+              <table cellspacing="10">
+                <tr>
+                  <td>Reading</td>
+                  <td>Empathy</td>
+                </tr>
+                <tr>
+                  <td>Exercise</td>
+                  <td>Creativity</td>
+                </tr>
+                <tr>
+                  <td>Puzzles</td>
+                  <td>Helpful</td>
+                </tr>
+                <tr>
+                  <td>Travel</td>
+                  <td>Resouceful</td>
+                </tr>
+              </table>
+            </p>
+          </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Skills&rarr;</h2>
+            <h2>Soft Skills&rarr;</h2>
             <p>
-        <table>
-            <tr>
-                <td>Communication</td>
-                <td>Github</td>
-            </tr>
-            <tr>
-                <td>Client Mx</td>
-                <td>Ruby</td>
-            </tr>
-            <tr>
-                <td>Project Mx</td>
-                <td>HTML</td>
-            </tr>
-            <tr>
-                <td>Problem Solving</td>
-                <td>Ruby on Rails</td>
-            </tr>
-        </table>
+              <table cellspacing="10">
+                <tr>
+                  <td>Communication</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Client Mx</td>
+                  <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Project Mx</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Analytical</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+              </table>
+            </p>
+          </a>
+
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Technical Skills&rarr;</h2>
+            <p>
+              <table cellspacing="10">
+                <tr>
+                  <td>Github</td>
+                  <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Ruby</td>
+                  <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>HTML</td>
+                  <td>⭐⭐</td>
+                </tr>
+                <tr>
+                  <td>Rails</td>
+                  <td>⭐⭐⭐</td>
+                </tr>
+              </table>
             </p>
           </a>
         </div>
@@ -127,12 +170,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
+  );
 }
