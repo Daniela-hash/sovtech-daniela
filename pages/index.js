@@ -23,35 +23,35 @@ export default function Home() {
           <a href="/who" className={styles.card}>
             <h2>The WHO&rarr;</h2>
             <ul>
-              <li>🥅I set goals for myself and work hard to achieve them.</li>
-              <li>🤸I enjoy being active, with a swim, walk, or run.</li>
-              <li>👨‍👩‍👦Family woman</li>
-              <li>🎨I am curious, creative, and an out-of-the-box thinker.</li>
-              <li>🔦I simplify practices using a solution-based approach.</li>
-              <li>🩹I come from a medical background.</li>
-              <li>⚽I'm pretty good at Foosball.</li>
+              <li>I set goals for myself and work hard to achieve them🥅</li>
+              <li>I enjoy being active, with a swim, walk, or run🤸</li>
+              <li>Family woman👨‍👩‍👦</li>
+              <li>I am curious, creative, and an out-of-the-box thinker🎨</li>
+              <li>I simplify practices using a solution-based approach🔦</li>
+              <li>I come from a medical background🩹</li>
+              <li>I'm pretty good at Foosball⚽</li>
             </ul>
           </a>
 
           <a href="/why" className={styles.card}>
             <h2>The WHY&rarr;</h2>
             <ul>
-              <li>👩🏼‍🎓Software development embodies innovation.</li>
-              <li>🔍It will challenge my curiosity and creativity.</li>
+              <li>Software development embodies innovation👩🏼‍🎓</li>
+              <li>It will challenge my curiosity and creativity🔍</li>
               <li>
-                🗃I’m looking to adapt my skills in client and project
-                management.
+                I’m looking to adapt my skills in client and project
+                management🗃
               </li>
               <li>
-                🎓The Graduate Programme is an amazing entry point for me into
-                Tech.{" "}
+                The Graduate Programme is an amazing entry point for me into
+                Tech🎓{" "}
               </li>
               <li>
-                🙌I am drawn to the dynamic nature and supportive environment
+                I am drawn to the dynamic nature and supportive environment🙌
               </li>
               <li>
-                👩‍🌾The program will allow me to take the time to harvest my
-                technical skills.
+                The program will allow me to take the time to harvest my
+                technical skills👩‍🌾
               </li>
             </ul>
           </a>
