@@ -21,17 +21,17 @@ export default function Home() {
         <h3><em>Teamwork makes the Dreamwork</em></h3>
         <a className={styles.card}>
           The ability to join an established company that offers a Graduate Programme, 
-          promotes on-the-job learning and values mentorship aligns with 
-          my trajectory towards growth.
+          promotes on-the-job <strong>learning</strong> and values mentorship aligns with 
+          my trajectory towards <strong>growth</strong>.
         <br/>
         <br/>
           Similarities between my reasons for moving into Software Development and SovTech: 
           <ul>
-            <li>The ability to solve people's problems and maximize their productivity.</li>
-            <li>I have an innate need to help people.</li>
-            <li>Oppportunity to collaborate with team members.</li>
-            <li>Have a place to practice and gain exposure to designing and building a variety of applications.</li>
-            <li>Allow for mentorship and the ability to be in an environement of mutual respect.</li>
+            <li>The ability to solve people's problems and maximize their <strong>productivity</strong>.</li>
+            <li>I have an innate need to <strong>help</strong> people.</li>
+            <li>Oppportunity to <strong>collaborate</strong> with team members.</li>
+            <li>Have a place to practice and gain <strong>exposure</strong> to designing and building a variety of applications.</li>
+            <li>Allow for mentorship and the ability to be in an environement of <strong>mutual respect</strong>.</li>
           </ul>  
         </a>        
       </main>
