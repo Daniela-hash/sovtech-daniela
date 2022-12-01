@@ -15,7 +15,15 @@ export default function Home() {
         <h1>The Who</h1>
         <br/>
         <br/>
-        <p>Seems like you would want to know a little more than that little blurb
+        <h2>Seems like you would like to know a little more than that little blurb</h2>
+        <br/>
+        <br/>
+        <p className={styles.card}>
+            Hi again. I'm Daniela. I'm a toddler mom and am navigating motherhood and a career change - talk about being brave. 
+            I am blessed with an amazing husband, family and friends who suport me so much. 
+            <br/>
+            I was born and raised in Johannesburg, South Africa, and am proud of my Portguese roots and
+            South African heritage. 
             <br/>
         </p>
       </main>

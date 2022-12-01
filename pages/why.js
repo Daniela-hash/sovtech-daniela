@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>The Who</h1>
+        <h1>The Why</h1>
         <br/>
         <br/>
         <p>Seems like you would want to know a little more than that little blurb</p>
