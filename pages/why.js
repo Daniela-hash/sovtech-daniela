@@ -18,7 +18,7 @@ export default function Home() {
         <h2>Let's dig into the WHY a little more...</h2>
         <br/>
         <br/>
-        <h2><em>Teamwork makes the Dreamwork</em></h2>
+        <h3><em>Teamwork makes the Dreamwork</em></h3>
         <a className={styles.card}>
           The ability to join an established company that offers a Graduate Programme, 
           promotes on-the-job learning and values mentorship aligns with 
