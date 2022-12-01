@@ -22,52 +22,44 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="/who" className={styles.card}>
             <h2>The WHO&rarr;</h2>
-            <p>
-              <ul>
-                <li>🥅I set goals for myself and work hard to achieve them.</li>
-                <li>🤸I enjoy being active, with a swim, walk, or run.</li>
-                <li>👨‍👩‍👦Family woman</li>
-                <li>
-                  🎨I am curious, creative, and an out-of-the-box thinker.
-                </li>
-                <li>
-                  🌍I am proud of my Portuguese roots and South African
-                  heritage.{" "}
-                </li>
-                <li>🔦I simplify practices using a solution-based approach.</li>
-                <li>🩹I come from a medical background.</li>
-                <li>⚽I'm pretty good at Foosball.</li>
-              </ul>
-            </p>
+            <ul>
+              <li>🥅I set goals for myself and work hard to achieve them.</li>
+              <li>🤸I enjoy being active, with a swim, walk, or run.</li>
+              <li>👨‍👩‍👦Family woman</li>
+              <li>🎨I am curious, creative, and an out-of-the-box thinker.</li>
+              <li>🔦I simplify practices using a solution-based approach.</li>
+              <li>🩹I come from a medical background.</li>
+              <li>⚽I'm pretty good at Foosball.</li>
+            </ul>
+          </a>
+
+          <a href="/why" className={styles.card}>
+            <h2>The WHY&rarr;</h2>
+            <ul>
+              <li>👩🏼‍🎓Software development embodies innovation.</li>
+              <li>🔍It will challenge my curiosity and creativity.</li>
+              <li>
+                🗃I’m looking to adapt my skills in client and project
+                management.
+              </li>
+              <li>
+                🎓The Graduate Programme is an amazing entry point for me into
+                Tech.{" "}
+              </li>
+              <li>
+                🙌I am drawn to the dynamic nature and supportive environment
+              </li>
+              <li>
+                👩‍🌾The program will allow me to take the time to harvest my
+                technical skills.
+              </li>
+            </ul>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>The WHY&rarr;</h2>
-            <p>
-              <ul>
-                <li>👩🏼‍🎓Software development embodies innovation.</li>
-                <li>🔍It will challenge my curiosity and creativity.</li>
-                <li>
-                  🗃I’m looking to adapt my skills in client and project
-                  management.
-                </li>
-                <li>
-                  🎓The Graduate Programme is an amazing entry point for me into
-                  Tech.{" "}
-                </li>
-                <li>
-                  🙌I am drawn to the dynamic nature and supportive environment
-                </li>
-                <li>
-                  👩‍🌾The program will allow me to take the time to harvest my
-                  technical skills.
-                </li>
-              </ul>
-            </p>
-          </a>
-          <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Work Experience</h2>
-              <table cellSpacing="10">
+            <table cellSpacing="10">
+              <tbody>
                 <tr>
                   <td>2016</td>
                   <td>Practice Manager</td>
@@ -84,12 +76,63 @@ export default function Home() {
                   <td>2012</td>
                   <td>Community Service </td>
                 </tr>
-              </table>
+              </tbody>
+            </table>
+          </a>
+ 
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Technical Skills&rarr;</h2>
+            <table cellSpacing="10">
+              <tbody>
+              <tr>
+                <td>Github</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Ruby</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Rails</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              </tbody>
+            </table>
+          </a>
+          
+
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Soft Skills&rarr;</h2>
+            <table cellSpacing="10">
+              <tbody>
+              <tr>
+                <td>Communication</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Client Mx</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Project Mx</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Analytical</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+              </tbody>
+            </table>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Interests & Traits&rarr;</h2>
-              <table cellSpacing="10">
+            <table cellSpacing="10">
+              <tbody>
                 <tr>
                   <td>Reading</td>
                   <td>Empathy</td>
@@ -106,53 +149,8 @@ export default function Home() {
                   <td>Travel</td>
                   <td>Resouceful</td>
                 </tr>
-              </table>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Soft Skills&rarr;</h2>
-              <table cellSpacing="10">
-                <tr>
-                  <td>Communication</td>
-                  <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Client Mx</td>
-                  <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Project Mx</td>
-                  <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Analytical</td>
-                  <td>⭐⭐⭐⭐</td>
-                </tr>
-              </table>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Technical Skills&rarr;</h2>
-            <p>
-              <table cellSpacing="10">
-                <tr>
-                  <td>Github</td>
-                  <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Ruby</td>
-                  <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>HTML</td>
-                  <td>⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Rails</td>
-                  <td>⭐⭐⭐</td>
-                </tr>
-              </table>
-            </p>
+              </tbody>
+            </table>
           </a>
         </div>
       </main>
