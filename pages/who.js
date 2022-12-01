@@ -18,13 +18,23 @@ export default function Home() {
         <h2>Seems like you would like to know a little more than that little blurb</h2>
         <br/>
         <br/>
+        <h3><em>"Most smiles are started by another smile." - Unknown</em></h3>
+        <br/>
+        <br/>
         <p className={styles.card}>
-            Hi again. I'm Daniela. I'm a toddler mom and am navigating motherhood and a career change - talk about being brave. 
-            I am blessed with an amazing husband, family and friends who suport me so much. 
+            Hi again. I'm Daniela. I'm a toddler mom and am navigating motherhood and a career 
+             <strong> change</strong>- talk about being <strong>brave</strong>. 
+            I am blessed with an amazing husband, family and friends who <strong>support</strong> me so much. 
+            <br/>
             <br/>
             I was born and raised in Johannesburg, South Africa, and am proud of my Portguese roots and
-            South African heritage. 
+            South African heritage. I love the sea, a safari getaway and have so much <strong>fun</strong> exploring the
+            world from a toddler's perspective. 
             <br/>
+            <br/>
+            I come from a medical background. I studied a BSc. Occupational Therapy at Wits, and continued
+            with a Master's in Early Childhood Intervention (MECI) at TUKS. 
+            I love <strong>learning</strong>, sharing and being in an environment that inspires be a <strong>better</strong> person. 
         </p>
       </main>
     </div>

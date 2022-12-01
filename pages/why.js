@@ -15,7 +15,12 @@ export default function Home() {
         <h1>The Why</h1>
         <br/>
         <br/>
-        <p>Seems like you would want to know a little more than that little blurb</p>
+        <h2>Let's dig into the WHY a little more...</h2>
+        <br/>
+        <br/>
+        <p>
+
+        </p>
       </main>
     </div>
   );

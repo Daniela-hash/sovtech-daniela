@@ -56,7 +56,7 @@ export default function Home() {
             </ul>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a className={styles.card}>
             <h2>Work Experience</h2>
             <table cellSpacing="10">
               <tbody>
@@ -80,8 +80,8 @@ export default function Home() {
             </table>
           </a>
  
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Technical Skills&rarr;</h2>
+          <a className={styles.card}>
+            <h2>Technical Skills</h2>
             <table cellSpacing="10">
               <tbody>
               <tr>
@@ -105,8 +105,8 @@ export default function Home() {
           </a>
           
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Soft Skills&rarr;</h2>
+          <a className={styles.card}>
+            <h2>Soft Skills</h2>
             <table cellSpacing="10">
               <tbody>
               <tr>
@@ -129,21 +129,21 @@ export default function Home() {
             </table>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Interests & Traits&rarr;</h2>
+          <a className={styles.card}>
+            <h2>Interests & Traits</h2>
             <table cellSpacing="10">
               <tbody>
                 <tr>
                   <td>Reading</td>
-                  <td>Empathy</td>
+                  <td>Empathetic</td>
                 </tr>
                 <tr>
                   <td>Exercise</td>
-                  <td>Creativity</td>
+                  <td>Creative</td>
                 </tr>
                 <tr>
                   <td>Puzzles</td>
-                  <td>Helpful</td>
+                  <td>Lateral Thinker</td>
                 </tr>
                 <tr>
                   <td>Travel</td>
