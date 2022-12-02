@@ -34,7 +34,7 @@ export default function Home() {
             <br/>
             I come from a medical background. I studied a BSc. Occupational Therapy at Wits, and continued
             with a Master's in Early Childhood Intervention (MECI) at TUKS. 
-            I love <strong>learning</strong>, sharing and being in an environment that inspires be a <strong>better</strong> person. 
+            I love <strong>learning</strong>, sharing and being in an environment that inspires to be a <strong>better</strong> person. 
         </p>
       </main>
     </div>
