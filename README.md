@@ -14,6 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployed version
 
-[The Live Site](https://sovtech-daniela-aeu7ie5hw-daniela-hash.vercel.app/)
+[The Live Site](https://sovtech-daniela.vercel.app/)
 
 
